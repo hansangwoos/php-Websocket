@@ -1,0 +1,87 @@
+# CRM Real-time Notification System .gitignore
+
+# Composer
+/vendor/
+composer.lock
+
+# Logs
+*.log
+debug.log
+workerman.log
+error.log
+access.log
+
+# Runtime files
+notifications.json
+*.pid
+*.sock
+
+# Environment files
+.env
+.env.local
+.env.production
+config.local.php
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.tmp
+
+# Cache files
+cache/
+tmp/
+temp/
+
+# Upload directories (if any)
+uploads/
+files/
+
+# Database files (if using SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# SSL certificates (if any)
+*.pem
+*.key
+*.crt
+*.cert
+
+# Test files
+test_data/
+sample_data/
+
+# Documentation build
+docs/_build/
+
+# Local configuration
+local_config.php
+settings.local.php
+
+# WebSocket specific
+*.sock
+workerman_*.log
+
+# PHP specific
+*.php~
+.phpunit.result.cache
